@@ -10,8 +10,8 @@ This is a skeleton project structure which will help you start solving the probl
 ## Structure
 
 - **src/main/java** is where all your java source files should be written to. Already has a `Main.java` file that contains the driver code.
-- **src/test/java** is where all your unit test files should be written. Make sure all your test file end with `Tests.java`. Example `CartTests.java`, `OrderTests.java`. 
-- **lib** contains the jar files for the IDE to provide code suggestion capabilities on external dependecies. Like JUnit5
+- **src/test/java** is where all your unit test files should be written. Make sure all your test file end with `Tests.java`. Example: `CartTests.java`, `OrderTests.java`. 
+- **lib** contains the jar files for the IDE to provide code suggestion capabilities on external dependecies. Like JUnit5.
 - **build.xml** is a build config file. You don't need to worry about this or edit this.
 
 ## How to run unittests
@@ -38,5 +38,13 @@ This is a skeleton project structure which will help you start solving the probl
     - **options** are optional **cmd** specific options.
 
     Example: `java -jar dist/lib/dist.jar 'ADD APPLE 2' 'ADD ORANGE 3'  'SHOW'` <br>
-    
+
     Note: Each full command should be wrapped in single quotes(').
+
+## Ant tasks available to you.
+
+You can run these following commands on the terminal.
+
+- `ant clean` - will clean the older builds.
+- `ant dist` - will compile your code and build the `dist.jar` file inside `dist/lib` folder.
+- `ant test` - will build and run all your unittests. The test files are expected to reside inside `src/test/java`.
