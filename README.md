@@ -10,7 +10,7 @@ This is a skeleton project structure which will help you start solving the probl
 ## Structure
 
 - **src/main/java** is where all your java source files should be written to. Already has a `Main.java` file that contains the driver code.
-- **src/test/java** is where all your unit test files should be written. Make sure all your test file end with `Tests.java`. Example: `CartTests.java`, `OrderTests.java`. 
+- **src/test/java** is where all your unit test files should be written. Make sure all your test files end with `Tests.java`. Example: `CartTests.java`, `OrderTests.java`. 
 - **lib** contains the jar files for the IDE to provide code suggestion capabilities on external dependecies. Like JUnit5.
 - **build.xml** is a build config file. You don't need to worry about this or edit this.
 
@@ -19,6 +19,7 @@ This is a skeleton project structure which will help you start solving the probl
 - We have already configured everything for you to get started with running and writing unittests rightaway.
 - Run the command `ant test` in the terminal to run unittests.
 - `ant test` will detect all test files inside `src/test/java` and build and run the tests.
+- All test files needs to end with `Tests.java`. Example: `BooksTests.java`, `BooksRepoTests.java`.
 
 ## How to build your solution
 
@@ -33,7 +34,7 @@ This is a skeleton project structure which will help you start solving the probl
 ## Running the dist.jar file 
 
 - After building your solution as per [How to build your solution](#how-to-build-your-solution) you can now run the `dist.jar` against inputs. 
-- To run issue the command `java -jar dist/lib/dist.jar '[cmd [options...]' 'cmd [options...]'...]` where
+- To run, issue the command `java -jar dist/lib/dist.jar '[cmd [options...]' 'cmd [options...]'...]` where
     - **cmd** is a valid problem specific command.
     - **options** are optional **cmd** specific options.
 
