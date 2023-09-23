@@ -33,7 +33,7 @@ This is a skeleton project structure which will help you start solving the probl
 ## Running the dist.jar file 
 
 - After building your solution as per [How to build your solution](#how-to-build-your-solution) you can now run the `dist.jar` against inputs. 
-- To run issue the command java -jar dist/lib/dist.jar '[cmd [options...]' 'cmd [options...]'...]` where
+- To run issue the command `java -jar dist/lib/dist.jar '[cmd [options...]' 'cmd [options...]'...]` where
     - **cmd** is a valid problem specific command.
     - **options** are optional **cmd** specific options.
 
