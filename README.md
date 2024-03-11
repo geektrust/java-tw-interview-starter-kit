@@ -39,7 +39,7 @@ This is a skeleton project structure which will help you start solving the probl
 
     For example: `java -jar dist/lib/dist.jar '3 Paris one-way'` <br>
 
-    Note: Each full command should be wrapped in single quotes(').
+    Note: Each full command should be wrapped in single quotes.
 
 ## Ant tasks available to you.
 
