@@ -28,17 +28,16 @@ This is a skeleton project structure which will help you start solving the probl
 
 ## Checking for correctness 
 
-- You can simply opt to do a `Geektrust > Run Tests` from the editor menu, which will run your solution against some preconfigured inputs and show you the output.
+- You can click on the `Test My Code` button from the interview application, which will run your solution against some preconfigured inputs and show you the output.
 - If you want to build & run the `dist.jar` file from the terminal to check against custom inputs see [Running the dist.jar file](#running-the-distjar-file) section.
 
 ## Running the dist.jar file 
 
 - After building your solution as per [How to build your solution](#how-to-build-your-solution) you can now run the `dist.jar` against inputs. 
-- To run, issue the command `java -jar dist/lib/dist.jar '[cmd [options...]' 'cmd [options...]'...]` where
-    - **cmd** is a valid problem specific command.
-    - **options** are optional **cmd** specific options.
+- To run, issue the command `java -jar dist/lib/dist.jar '<input 1>' '<input 2>'... '<input N>'` where
+    - **input** is a valid input given in the problem statement.
 
-    Example: `java -jar dist/lib/dist.jar 'ADD APPLE 2' 'ADD ORANGE 3'  'SHOW'` <br>
+    For example: `java -jar dist/lib/dist.jar '3 Paris one-way'` <br>
 
     Note: Each full command should be wrapped in single quotes(').
 
