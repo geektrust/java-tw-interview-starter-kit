@@ -7,14 +7,9 @@ public class Main{
      */
     public static void main(String[] args){
         for (String cmd : args) {
-            handle(cmd);
+            //handle each command passed in and implement the solution.
         }
     }
 
-    /*
-     * Edit this to start handling the commands.
-     */
-    private static void handle(String cmdLine) {
-        System.out.println(cmdLine);
-    }
+
 }
