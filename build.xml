@@ -1,7 +1,4 @@
-<project name="cart-management" default="dist" basedir=".">
-  <description>
-    A solution to Cart Management Problem
-  </description>
+<project name="interview" default="dist" basedir=".">
   <!-- set global properties for this build -->
   <property name="src" location="src/main/java" />
   <property name="src-test" location="src/test/java" />
