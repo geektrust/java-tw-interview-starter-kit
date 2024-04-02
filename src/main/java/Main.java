@@ -13,7 +13,7 @@ public class Main{
          * The code evaluator will execute this code by using the command 
          * java -jar dist/lib/dist.jar '3 Paris one-way' '2 Tokyo one-way'
          * 
-         * So ithe value of the variable "input" given below will be the string "3 Paris one-way" the first time and "2 Tokyo one-way" the second time as the loop executes.
+         * So the value of the variable "input" given below will be the string "3 Paris one-way" the first time and "2 Tokyo one-way" the second time as the loop executes.
          * 
          */
         for (String input : args) {
