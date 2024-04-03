@@ -7,18 +7,17 @@ public class Main{
      */
     public static void main(String[] args){
         /*
-         * Format of the 'args' array: `<Number of Travelers> <Destination> <Trip Type>` `<Number of Travelers> <Destination> <Trip Type>` `<Number of Travelers> <Destination> <Trip Type>`
-         *  Example: [3 Paris round, 4 Cairo round, 1 Tokyo one-way]
+         * Format of the 'args' array: `<Number of Travelers> <Destination> <Trip Type>`
+         *  Example: ["3 Paris round"]
          * 
          * The code evaluator will execute this code by using the command 
-         * java -jar dist/lib/dist.jar '3 Paris one-way' '2 Tokyo one-way'
+         * java -jar dist/lib/dist.jar '3 Paris one-way'
          * 
-         * So the value of the variable "input" given below will be the string "3 Paris one-way" the first time and "2 Tokyo one-way" the second time as the loop executes.
+         * So the value of the variable "input" given below will be the string "3 Paris one-way".
          * 
          */
-        for (String input : args) {
-            handle(input);
-        }
+        
+        handle(args[0]);
     }
 
     /*
