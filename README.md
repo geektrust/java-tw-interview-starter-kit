@@ -34,10 +34,10 @@ This is a skeleton project structure which will help you start solving the probl
 ## Running the dist.jar file 
 
 - After building your solution as per [How to build your solution](#how-to-build-your-solution) you can now run the `dist.jar` against inputs. 
-- To run, issue the command `java -jar dist/lib/dist.jar '<input 1>' '<input 2>'... '<input N>'` where
+- To run, issue the command `java -jar dist/lib/dist.jar '<input 1>'` where
     - **input** is a valid input given in the problem statement.
 
-    For example: `java -jar dist/lib/dist.jar '3 Paris one-way' '2 Tokyo one-way'` <br>
+    For example: `java -jar dist/lib/dist.jar '3 Paris one-way'` <br>
 
     Note: Each full command should be wrapped in single quotes.
 
