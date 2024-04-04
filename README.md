@@ -48,3 +48,8 @@ You can run these following commands on the terminal.
 - `ant clean` - will clean the older builds.
 - `ant dist` - will compile your code and build the `dist.jar` file inside `dist/lib` folder.
 - `ant test` - will build and run all your unittests. The test files are expected to reside inside `src/test/java`.
+
+## Scripts available to you.
+
+- `run.sh '<input 1>' '<input 2>'` - compiles and runs the code against the given inputs. Example: `run.sh '3 Paris one-way' '2 London'`.
+- `run_unittests.sh` - runs the unittests.
