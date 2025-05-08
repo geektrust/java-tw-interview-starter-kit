@@ -34,7 +34,7 @@ public class Main{
         String input3 = inputList[2];
 
         /*
-         * Implementation of the solution should begin after this. Please make sure you convert the variables into appropriate data types required for the solutioning. 
+         * Your solution should utilise these inputs. Please make sure you convert the variables into appropriate data types required for the solutioning. 
          */
 
     }
